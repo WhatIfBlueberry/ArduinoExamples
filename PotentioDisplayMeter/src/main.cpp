@@ -11,7 +11,7 @@ TM1637Display display(CLK, DIO);
 /* 
   Simple program that displays the value of a pontentiometer on a 4-digit-diplay
   The values get mapped to each units maximum. The analog potentiometer gets values (0,1023)
-  while the Display can Display (0,9999). A maxed out potentiometer (1023) will show (9999) on the Display
+  while the Display can Display (0,9999). A maxed out potentiometer (1023) will show (9999) on the Display.
   
   Author: Dylan Rau 08.2022
  */
