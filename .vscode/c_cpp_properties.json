@@ -3,6 +3,21 @@
         {
             "name": "Win32",
             "includePath": [
+                "${workspaceFolder}/**",
+                "C:/Users/Dylan/.platformio/packages/framework-arduino-avr/cores/arduino"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-msvc-x64"
+        },
+        {
+            "name": "default",
+            "includePath": [
                 "${workspaceFolder}/**"
             ],
             "defines": [
