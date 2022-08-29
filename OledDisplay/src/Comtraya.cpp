@@ -20,9 +20,9 @@ Need to comment out one of the .cpp files in order to work */
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
 char message[] = "Comtraya!";
-int x, minX;
 int textSize = 4;
 int pixelsPerChar = 6;
+int x, minX;
 
 void setup() {
     Serial.begin(9600);
